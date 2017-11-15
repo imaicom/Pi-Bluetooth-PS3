@@ -1,9 +1,8 @@
 # Pi-Bluetooth-PS3
-
-sudo apt-get install bluetooth  
-sudo apt-get install bluetooth bluez-utils bluez-compat bluez-hcidump  
-sudo apt-get install libusb-dev  
-sudo apt-get install libbluetooth-dev  
+ 
+sudo apt-get install bluetooth bluez-hcidump  
+sudo apt-get install libusb-dev libbluetooth-dev  
+sudo /etc/init.d/bluetooth start  
 /etc/init.d/bluetooth status  
   
 cd  
