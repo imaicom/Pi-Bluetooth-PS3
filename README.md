@@ -13,11 +13,11 @@ wget "http://www.pabr.org/sixlinux/sixpair.c" -O sixpair.c
 gcc -o sixpair sixpair.c -lusb  
 sudo ./sixpair
 
-Current Bluetooth master: xx:xx:xx:xx:xx:xx
-Setting master bd_addr to xx:xx:xx:xx:xx:xx
-
-cd
-wget "https://sourceforge.net/projects/qtsixa/files/QtSixA%201.5.1/QtSixA-1.5.1-src.tar.gz/download" -O QtSixA-src.tar.gz
+Current Bluetooth master: xx:xx:xx:xx:xx:xx  
+Setting master bd_addr to xx:xx:xx:xx:xx:xx  
+  
+cd  
+wget "https://sourceforge.net/projects/qtsixa/files/QtSixA%201.5.1/QtSixA-1.5.1-src.tar.gz/download" -O QtSixA-src.tar.gz  
 tar -xvf QtSixA-1.5.1-src.tar.gz  
 cd QtSixA-1.5.1/sixad  
 make  
