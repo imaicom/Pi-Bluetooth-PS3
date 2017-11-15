@@ -15,8 +15,8 @@ sudo ./sixpair
 Current Bluetooth master: xx:xx:xx:xx:xx:xx  
 Setting master bd_addr to xx:xx:xx:xx:xx:xx  
   
-cd  
-wget "https://sourceforge.net/projects/qtsixa/files/QtSixA%201.5.1/QtSixA-1.5.1-src.tar.gz/download" -O QtSixA-src.tar.gz  
+--cd  
+--wget "https://sourceforge.net/projects/qtsixa/files/QtSixA%201.5.1/QtSixA-1.5.1-src.tar.gz/download" -O QtSixA-src.tar.gz  
 tar -xvf QtSixA-1.5.1-src.tar.gz  
 cd QtSixA-1.5.1/sixad  
 make  
@@ -30,5 +30,10 @@ make
 sudo make install  
 sudo sixad -start &  
 sixad-bin[xxxx]: sixad started, long press the PS button now  
+sixad-sixaxis[xxxx]: started
+sixad-sixaxis[xxxx]: Connected 'PLAYSTATION(R)3 Controller (xx:xx:xx:xx:xx:xx)' [Battery xx]  
+  
+sudo apt-get install jstest-gtk  
+jstest-gtk &  
   
 /usr/bin/sixad --stop  
