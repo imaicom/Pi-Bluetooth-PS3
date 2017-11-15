@@ -40,5 +40,5 @@ sixad-sixaxis[xxxx]: Connected 'PLAYSTATION(R)3 Controller (xx:xx:xx:xx:xx:xx)' 
   
 sudo apt-get install jstest-gtk  
 jstest-gtk &  
-  
+   
 /usr/bin/sixad --stop  
