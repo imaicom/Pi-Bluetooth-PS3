@@ -9,10 +9,10 @@ lsusb|grep Sony
 cd  
 mkdir sixpair  
 cd sixpair  
-wget "http://www.pabr.org/sixlinux/sixpair.c" -O sixpair.c
+wget "http://www.pabr.org/sixlinux/sixpair.c" -O sixpair.c  
 gcc -o sixpair sixpair.c -lusb  
 
---Connect the USB cable from the PlayStation controller
+--Connect the USB cable from the PlayStation controller  
 sudo ./sixpair
 
 Current Bluetooth master: xx:xx:xx:xx:xx:xx  
