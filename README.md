@@ -80,3 +80,5 @@ Terminal=false
 Hidden=false  
 
 sudo chmod a+r ~/.config/autostart/ps3.desktop
+
+https://qiita.com/KurokoSin/items/f0f2de392d52821e7fa6
