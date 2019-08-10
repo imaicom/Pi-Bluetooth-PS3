@@ -65,6 +65,8 @@ jstest-gtk
 /usr/bin/sixad --stop  
 /usr/bin/sixad --start &  
 
+https://www.raspberrypi.org/forums/viewtopic.php?t=140515  
+
 sudo vi ~/.config/autostart/ps3.desktop
 
 [Desktop Entry]  
