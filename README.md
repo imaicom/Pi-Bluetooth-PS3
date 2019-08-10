@@ -1,7 +1,7 @@
 # Pi-Bluetooth-PS3
 
 
-lsusb|grep Sony  
+lsusb|grep Sony  1
 \# Bus 001 Device 008: ID 054c:0268 Sony Corp. Batoh Device / PlayStation 3 Controller   
   
 sudo vi /etc/udev/rules.d/90-joystick.rules  
@@ -62,5 +62,5 @@ sixad-sixaxis[xxxx]: Connected 'PLAYSTATION(R)3 Controller (xx:xx:xx:xx:xx:xx)' 
 sudo apt-get install jstest-gtk  
 jstest-gtk  
    
-/usr/bin/sixad --stop
-/usr/bin/sixad --start &
+/usr/bin/sixad --stop  
+/usr/bin/sixad --start &  
