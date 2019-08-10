@@ -64,3 +64,17 @@ jstest-gtk
    
 /usr/bin/sixad --stop  
 /usr/bin/sixad --start &  
+
+sudo vi ~/.config/autostart/ps3.desktop
+
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=PS3
+Comment=
+Exec=sixad --start
+StartupNotify=false
+Terminal=false
+Hidden=false
+
+sudo chmod a+r ~/.config/autostart/ps3.desktop
