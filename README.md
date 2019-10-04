@@ -100,3 +100,5 @@ exit
 more /etc/udev/rules.d/10-local.rules
 vi   /etc/udev/rules.d/10-local.rules
 ACTION=="add", KERNEL=="hci0", RUN+="/usr/bin/hciconfig hci0 up"
+
+https://qiita.com/propella/items/6daf3c56e26f709b4141
