@@ -82,3 +82,21 @@ Hidden=false
 sudo chmod a+r ~/.config/autostart/ps3.desktop
 
 https://qiita.com/KurokoSin/items/f0f2de392d52821e7fa6
+
+https://qiita.com/shskwmt/items/fffabf521201f5835214
+
+sudo apt-get install bluez bluez-utils
+sudo systemctl start bluetooth.service
+sudo systemctl enable bluetooth.service
+
+bluetoothctl
+devices
+scan on
+pair    MACADDRESS
+trust   MACADDRESS
+connect MACADDRESS
+exit
+
+more /etc/udev/rules.d/10-local.rules
+vi   /etc/udev/rules.d/10-local.rules
+ACTION=="add", KERNEL=="hci0", RUN+="/usr/bin/hciconfig hci0 up"
